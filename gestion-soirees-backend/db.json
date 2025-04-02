@@ -1,0 +1,59 @@
+{
+  "soirees": [
+    {
+      "id": "1",
+      "nom": "Soirée Halloween",
+      "date": "2024-10-31T20:00:00",
+      "lieu": "Salle des fêtes",
+      "prix": 15,
+      "capaciteMaximale": 100,
+      "theme": "Halloween",
+      "description": "Une soirée effrayante pour Halloween",
+      "image_url": "https://example.com/halloween.jpg",
+      "places_disponibles": 100
+    },
+    {
+      "id": "2",
+      "nom": "Soirée Nouvel An",
+      "date": "2024-12-31T22:00:00",
+      "lieu": "Grande salle",
+      "prix": 25,
+      "capaciteMaximale": 200,
+      "theme": "Nouvel An",
+      "description": "Célébration du Nouvel An",
+      "image_url": "https://example.com/newyear.jpg",
+      "places_disponibles": 200
+    },
+    {
+      "id": 0,
+      "nom": "Latxague",
+      "date": "2025-04-06T12:25:00.000Z",
+      "lieu": "Bayonne",
+      "prix": 12,
+      "capaciteMaximale": 12,
+      "theme": "ingé",
+      "description": "2cole d'ingé",
+      "image_url": "localhost.com"
+    }
+  ],
+  "reservations": [
+    {
+      "id": "1",
+      "soiree_id": 1,
+      "nom_etudiant": "John Doe",
+      "email": "john@example.com",
+      "telephone": "0612345678",
+      "date_reservation": "2024-03-15T10:00:00",
+      "statut": "Confirmee"
+    }
+  ],
+  "goodies": [
+    {
+      "id": "1",
+      "soiree_id": 1,
+      "nom": "T-shirt Halloween",
+      "quantite_disponible": 50,
+      "prix": 10
+    }
+  ]
+}
