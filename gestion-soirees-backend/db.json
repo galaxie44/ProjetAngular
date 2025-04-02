@@ -1,18 +1,6 @@
 {
   "soirees": [
     {
-      "id": "1",
-      "nom": "Soirée Halloween",
-      "date": "2024-10-31T20:00:00",
-      "lieu": "Salle des fêtes",
-      "prix": 15,
-      "capaciteMaximale": 100,
-      "theme": "Halloween",
-      "description": "Une soirée effrayante pour Halloween",
-      "image_url": "https://example.com/halloween.jpg",
-      "places_disponibles": 100
-    },
-    {
       "id": "2",
       "nom": "Soirée Nouvel An",
       "date": "2024-12-31T22:00:00",
@@ -26,14 +14,15 @@
     },
     {
       "id": 0,
-      "nom": "Latxague",
-      "date": "2025-04-06T12:25:00.000Z",
-      "lieu": "Bayonne",
-      "prix": 12,
+      "nom": "Soirée de mes 21 ans",
+      "date": "2025-04-12T10:00:00.000Z",
+      "lieu": "Orthez",
+      "prix": 15,
       "capaciteMaximale": 12,
-      "theme": "ingé",
-      "description": "2cole d'ingé",
-      "image_url": "localhost.com"
+      "theme": "Basket",
+      "description": "La soirée de mes 21 ans sur le thème du basket",
+      "image_url": "Pas d'URL",
+      "places_disponibles": 12
     }
   ],
   "reservations": [
@@ -53,7 +42,18 @@
       "soiree_id": 1,
       "nom": "T-shirt Halloween",
       "quantite_disponible": 50,
-      "prix": 10
+      "prix": 10,
+      "description": "Une nouvelle description",
+      "quantite": 100,
+      "categorie": "a"
+    },
+    {
+      "id": 0,
+      "nom": "Goodie Test",
+      "description": "Description Test",
+      "quantite": 12,
+      "prix": 12,
+      "categorie": "E"
     }
   ]
 }
