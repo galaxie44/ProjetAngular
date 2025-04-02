@@ -10,7 +10,7 @@
       "theme": "Nouvel An",
       "description": "Célébration du Nouvel An",
       "image_url": "https://example.com/newyear.jpg",
-      "places_disponibles": 200
+      "places_disponibles": 199
     },
     {
       "id": 0,
@@ -34,6 +34,16 @@
       "telephone": "0612345678",
       "date_reservation": "2024-03-15T10:00:00",
       "statut": "Confirmee"
+    },
+    {
+      "id": "348c",
+      "nom_etudiant": "Edouard CLEmenceau",
+      "email": "edouard.clemenceau.pro@gmail.com",
+      "telephone": "0779406184",
+      "soiree_id": 2,
+      "date_reservation": "2025-04-02T21:25:19.520Z",
+      "statut": "En attente",
+      "nombre_places": 1
     }
   ],
   "goodies": [
