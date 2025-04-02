@@ -10,39 +10,18 @@
       "theme": "Nouvel An",
       "description": "Célébration du Nouvel An",
       "image_url": "https://example.com/newyear.jpg",
-      "places_disponibles": 199
-    },
-    {
-      "id": 0,
-      "nom": "Soirée de mes 21 ans",
-      "date": "2025-04-12T10:00:00.000Z",
-      "lieu": "Orthez",
-      "prix": 15,
-      "capaciteMaximale": 12,
-      "theme": "Basket",
-      "description": "La soirée de mes 21 ans sur le thème du basket",
-      "image_url": "Pas d'URL",
-      "places_disponibles": 12
+      "places_disponibles": 197
     }
   ],
   "reservations": [
     {
-      "id": "1",
-      "soiree_id": 1,
-      "nom_etudiant": "John Doe",
-      "email": "john@example.com",
-      "telephone": "0612345678",
-      "date_reservation": "2024-03-15T10:00:00",
-      "statut": "Confirmee"
-    },
-    {
-      "id": "348c",
-      "nom_etudiant": "Edouard CLEmenceau",
-      "email": "edouard.clemenceau.pro@gmail.com",
-      "telephone": "0779406184",
+      "id": "d8c1",
+      "nom_etudiant": "aaa",
+      "email": "aaa@gmail.com",
+      "telephone": "09",
       "soiree_id": 2,
-      "date_reservation": "2025-04-02T21:25:19.520Z",
-      "statut": "En attente",
+      "date_reservation": "2025-04-02T21:41:01.818Z",
+      "statut": "Annulee",
       "nombre_places": 1
     }
   ],
