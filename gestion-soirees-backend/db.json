@@ -44,6 +44,15 @@
       "quantite_disponible": 12,
       "image_url": "Pas d'URL",
       "soiree_id": "2"
+    },
+    {
+      "id": 0,
+      "nom": "aa",
+      "description": "aa",
+      "prix": 1,
+      "quantite_disponible": 1,
+      "image_url": "www.google.com/picture/T7kOpl",
+      "soiree_id": "2"
     }
   ]
 }
