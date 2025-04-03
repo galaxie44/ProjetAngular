@@ -10,7 +10,7 @@
       "theme": "Nouvel An",
       "description": "Célébration du Nouvel An",
       "image_url": "https://example.com/newyear.jpg",
-      "places_disponibles": 197
+      "places_disponibles": 196
     }
   ],
   "reservations": [
@@ -23,26 +23,27 @@
       "date_reservation": "2025-04-02T21:41:01.818Z",
       "statut": "Annulee",
       "nombre_places": 1
+    },
+    {
+      "id": "a03c",
+      "nom_etudiant": "Edouard CLEMENCEUA",
+      "email": "edouard.clemenceau.pro@gmail.com",
+      "telephone": "0779406184",
+      "soiree_id": 2,
+      "date_reservation": "2025-04-03T08:43:03.521Z",
+      "statut": "En attente",
+      "nombre_places": 1
     }
   ],
   "goodies": [
     {
-      "id": "1",
-      "soiree_id": 1,
-      "nom": "T-shirt Halloween",
-      "quantite_disponible": 50,
-      "prix": 10,
-      "description": "Une nouvelle description",
-      "quantite": 100,
-      "categorie": "a"
-    },
-    {
       "id": 0,
       "nom": "Goodie Test",
       "description": "Description Test",
-      "quantite": 12,
       "prix": 12,
-      "categorie": "E"
+      "quantite_disponible": 12,
+      "image_url": "Pas d'URL",
+      "soiree_id": "2"
     }
   ]
 }
