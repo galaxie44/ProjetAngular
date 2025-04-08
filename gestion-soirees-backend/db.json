@@ -10,48 +10,45 @@
       "theme": "Nouvel An",
       "description": "Célébration du Nouvel An",
       "image_url": "https://example.com/newyear.jpg",
-      "places_disponibles": 196
+      "places_disponibles": 194
+    },
+    {
+      "id": "0",
+      "nom": "Test",
+      "date": "2025-04-24T10:34:00.000Z",
+      "lieu": "Or",
+      "prix": 12,
+      "capaciteMaximale": 12,
+      "theme": "12",
+      "description": "12",
+      "image_url": "12",
+      "places_disponibles": 12
     }
   ],
   "reservations": [
     {
-      "id": "d8c1",
-      "nom_etudiant": "aaa",
-      "email": "aaa@gmail.com",
-      "telephone": "09",
-      "soiree_id": 2,
-      "date_reservation": "2025-04-02T21:41:01.818Z",
-      "statut": "Annulee",
-      "nombre_places": 1
-    },
-    {
-      "id": "a03c",
-      "nom_etudiant": "Edouard CLEMENCEUA",
+      "id": "d41a",
+      "nom_etudiant": "Edouard CLEMENCEAU",
       "email": "edouard.clemenceau.pro@gmail.com",
       "telephone": "0779406184",
       "soiree_id": 2,
-      "date_reservation": "2025-04-03T08:43:03.521Z",
-      "statut": "En attente",
-      "nombre_places": 1
+      "date_reservation": "2025-04-03T09:25:57.195Z",
+      "statut": "Confirmee",
+      "nombre_places": 1,
+      "nom_carte": "Edouard CLEMENCEAU",
+      "numero_carte": "1234567891123456",
+      "date_expiration": "12/23",
+      "code_securite": "123"
     }
   ],
   "goodies": [
     {
       "id": 0,
-      "nom": "Goodie Test",
-      "description": "Description Test",
+      "nom": "AA",
+      "description": "AA",
       "prix": 12,
       "quantite_disponible": 12,
-      "image_url": "Pas d'URL",
-      "soiree_id": "2"
-    },
-    {
-      "id": 0,
-      "nom": "aa",
-      "description": "aa",
-      "prix": 1,
-      "quantite_disponible": 1,
-      "image_url": "www.google.com/picture/T7kOpl",
+      "image_url": "AA",
       "soiree_id": "2"
     }
   ]
